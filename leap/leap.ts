@@ -1,7 +1,3 @@
-class leap {
-  static isLeapYear(year: number) {
-    return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
-  }
+export default function isLeapYear(year: number) {
+  return (year % 4 == 0) && (year % 100 != 0 || year % 400 == 0);
 }
-
-export default leap.isLeapYear;
